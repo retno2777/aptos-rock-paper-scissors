@@ -44,3 +44,16 @@ Scores are updated in real-time and tracked over multiple rounds.
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/vincentbmw/aptos-rock-paper-scissors.git
+
+2. **Install dependencies:**
+   ```bash
+   cd aptos-rock-paper-scissors 
+   npm install
+   ```
+
+3. **Start the development server:**
+   ```bash
+   npm start
+   ```
+
+4. **Access the Game**: Open your browser and go to http://localhost:3000 to start playing!
