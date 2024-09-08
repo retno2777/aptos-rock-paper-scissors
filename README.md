@@ -9,7 +9,7 @@ Welcome to Rock-Paper-Scissors with a blockchain twist! This enhanced version of
 
 - **Endless Gameplay:** Keep the fun going with the ability to restart a new game immediately after the current one ends.
 - **Score Tracking:** Play multiple rounds and keep track of wins and losses for both the player and the computer, all managed by our updated smart contract.
-- **Interactive Frontend:** No more using block explorers—interact with the game through a user-friendly frontend interface. Use Aptos’ `create-aptos-dapp` CLI for a seamless dApp experience.
+- **Interactive Frontend:** Forget about using block explorers—engage with the game through a sleek, user-friendly interface built with React. Our frontend integrates seamlessly with the Aptos blockchain, allowing players to interact with the game directly from the web app. The React-based UI ensures a smooth and responsive experience, making gameplay intuitive and enjoyable.
 - **APT Token Wagering:** Bet APT tokens when starting a game. The winner takes the entire pot, adding an exciting stakes element to every round.
 
 ## 🛠 Tech Stack
@@ -29,7 +29,7 @@ Welcome to Rock-Paper-Scissors with a blockchain twist! This enhanced version of
    ![Choose Move](https://github.com/retno2777/aptos-rock-paper-scissors/blob/main/src/readMeImage/Home.png)
 4. **View Results:** The game will determine the winner based on classic rules, and the results, along with updated scores, will be recorded on the blockchain.
 5. **Play Again:** Play again instantly with the "Play Again" button and continue to wager APT tokens if you wish.
-   ![Final Screen](hhttps://github.com/retno2777/aptos-rock-paper-scissors/blob/main/src/readMeImage/Result.png)
+   ![Final Screen](https://github.com/retno2777/aptos-rock-paper-scissors/blob/main/src/readMeImage/Result.png)
 
 ## 📊 Scorekeeping
 
