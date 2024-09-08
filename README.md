@@ -2,7 +2,8 @@
 
 Welcome to Rock-Paper-Scissors with a blockchain twist! This enhanced version of the classic game not only ensures fairness and transparency with the Aptos blockchain but also introduces exciting new features for an engaging experience.
 
-![Game Preview](https://github.com/vincentbmw/aptos-rock-paper-scissors/blob/master/src/assetsReadme/home.png)
+![Game Preview](https://github.com/retno2777/aptos-rock-paper-scissors/blob/main/src/readMeImage/Home.png)
+
 
 ## 🚀 Features
 
@@ -21,19 +22,19 @@ Welcome to Rock-Paper-Scissors with a blockchain twist! This enhanced version of
 ## 🎮 How to Play
 
 1. **Connect Your Wallet:** Ensure you have a Petra Wallet connected to the Testnet Network.
-   ![Connect Wallet](https://github.com/vincentbmw/aptos-rock-paper-scissors/blob/master/src/assetsReadme/connectWallet.png)
+   ![Connect Wallet](https://github.com/retno2777/aptos-rock-paper-scissors/blob/main/src/readMeImage/Connect.png)
 2. **Start a New Game:** Click the "Start Game" button to begin a round. You can now also wager APT tokens if desired.
-   ![Start Game](https://github.com/vincentbmw/aptos-rock-paper-scissors/blob/master/src/assetsReadme/startGame.png)
+   ![Start Game](https://github.com/retno2777/aptos-rock-paper-scissors/blob/main/src/readMeImage/Start.png)
 3. **Make Your Move:** Choose Rock, Paper, or Scissors by clicking the respective button.
-   ![Choose Move](https://github.com/vincentbmw/aptos-rock-paper-scissors/blob/master/src/assetsReadme/choose.png)
+   ![Choose Move](https://github.com/retno2777/aptos-rock-paper-scissors/blob/main/src/readMeImage/Home.png)
 4. **View Results:** The game will determine the winner based on classic rules, and the results, along with updated scores, will be recorded on the blockchain.
-5. **Play Again:** Restart a new game instantly with the "Play Again" button and continue to wager APT tokens if you wish.
-   ![Final Screen](https://github.com/vincentbmw/aptos-rock-paper-scissors/blob/master/src/assetsReadme/final.png)
+5. **Play Again:** Play again instantly with the "Play Again" button and continue to wager APT tokens if you wish.
+   ![Final Screen](hhttps://github.com/retno2777/aptos-rock-paper-scissors/blob/main/src/readMeImage/Result.png)
 
 ## 📊 Scorekeeping
 
-- **Draw:** 1 point
-- **Win:** 2 points
+- **Draw:** 2 point
+- **Win:** 1 points
 - **Lose:** 3 points
 
 Scores are updated in real-time and tracked over multiple rounds.
