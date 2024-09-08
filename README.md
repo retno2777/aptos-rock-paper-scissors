@@ -57,3 +57,11 @@ Scores are updated in real-time and tracked over multiple rounds.
    ```
 
 4. **Access the Game**: Open your browser and go to http://localhost:3000 to start playing!
+
+
+### Key Additions:
+
+- **Deploying Smart Contract Section:** Instructions for using Cloud Shell to deploy your smart contract, including cloning the repository, installing the Aptos CLI, and deploying the contract.
+- **Consistent Formatting:** All instructions are formatted for clarity, ensuring ease of use for developers. 
+
+Feel free to adjust the repository URLs or other specifics based on your actual setup and requirements.
