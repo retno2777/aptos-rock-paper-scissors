@@ -1,0 +1,244 @@
+.GamePlay-container {
+    display: grid;
+    /* Using grid for layout */
+    grid-template-columns: 1fr 2fr 1fr;
+    /* 1:2:1 column distribution */
+    gap: 20px;
+    /* Space between columns */
+    align-items: center;
+    /* Vertically center items */
+    padding: 20px;
+    width: 100%;
+    /* Full width */
+    min-width: 1000px;
+    /* Limit maximum width */
+    box-sizing: border-box;
+}
+
+/* Player score styling */
+.player-score,
+.computer-score {
+    /* Green background */
+    color: white;
+    /* White text */
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin: 0 auto;
+    /* Center horizontally */
+    max-width: 300px;
+    /* Maximum width, adjust as needed */
+    width: 100%;
+    /* Full width with max-width constraint */
+    box-sizing: border-box;
+    /* Include padding in width calculation */
+}
+
+/* Center section styling */
+.game-center {
+    text-align: center;
+}
+
+/* Button container styling */
+.button-container {
+    display: grid;
+    /* Use grid layout */
+    grid-template-columns: repeat(3, 1fr);
+    /* Create 3 equal-width columns */
+    gap: 20px;
+    /* Space between columns */
+    margin-top: 20px;
+    /* Space between text and buttons */
+    max-width: 500px;
+    /* Maximum width */
+    margin-left: auto;
+    /* Center the container horizontally */
+    margin-right: auto;
+}
+
+/* Teks <p> di dalam button-container */
+.button-container p {
+    grid-column: span 3;
+    /* Span all 3 columns */
+    margin-bottom: 20px;
+    /* Space between text and buttons */
+    font-size: 18px;
+    /* Adjust font size */
+    color: white;
+    /* Text color */
+    font-weight: bold;
+    /* Make text bold */
+}
+
+
+.button:hover {
+    transform: scale(1.05);
+    /* Scale up on hover */
+}
+
+/* Adjust icons in buttons */
+.icon {
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+
+.button {
+    display: flex;
+    /* Flexbox to align image and text horizontally */
+    align-items: center;
+    /* Center items vertically */
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    /* Background color */
+    text-align: center;
+    /* Center text within the button */
+    justify-content: center;
+    /* Center items horizontally */
+}
+
+button:hover {
+    background-color: #ff2c2c;
+    /* Darker red on hover */
+}
+
+/* Game result container styling */
+
+.game-result {
+    width: 100%;
+    /* Full width of the parent container */
+    max-width: 500px;
+    /* Maximum width */
+    min-height: 400px;
+    /* Minimum height */
+    position: relative;
+    /* Allows for stacking */
+    margin: 20px auto;
+    /* Center horizontally with some margin on top and bottom */
+    border-radius: 8px;
+    /* Rounded corners */
+    padding: 20px;
+    /* Add some padding inside the container */
+    /* Subtle shadow for depth */
+    display: flex;
+    flex-direction: row;
+    /* Arrange items in a row */
+    justify-content: space-between;
+    /* Space out items evenly */
+    align-items: center;
+    /* Center items vertically */
+}
+
+.game-result-item {
+    width: 100%;
+    /* Full width of the parent container */
+    text-align: center;
+    /* Center text */
+    padding: 10px;
+    /* Add some padding inside each item */
+    /* Background color for better visibility */
+    color: white;
+    /* Text color to stand out against the background */
+    border-radius: 4px;
+    /* Rounded corners for items */
+    flex: 1;
+    /* Add space between items */
+    justify-content: center;
+}
+
+.bottombutton {
+    display: flex;
+    /* Use Flexbox for button layout */
+    justify-content: center;
+    /* Center buttons horizontally within the container */
+    gap: 20px;
+    /* Space between the buttons */
+}
+
+.bottombutton button {
+    padding: 15px 30px;
+    /* Add padding inside the buttons */
+    border: none;
+    /* Remove default border */
+    border-radius: 8px;
+    /* Rounded corners */
+    color: white;
+    /* White text */
+    font-size: 16px;
+    /* Font size for text */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.3s;
+    /* Smooth transition effects */
+    min-width: 120px;
+    /* Ensure buttons have a minimum width */
+}
+
+.bottombutton button:first-of-type {
+    background-color: #346154;
+    /* Green background for Restart Game button */
+}
+
+.bottombutton button:last-of-type {
+    background-color: #431616;
+    /* Red background for Disconnected button */
+}
+
+.bottombutton button:hover {
+    background-color: #23bca8;
+    /* Darker green for Restart Game button on hover */
+}
+
+.bottombutton button:last-of-type:hover {
+    background-color: #ff2c2c;
+    /* Darker red for Disconnected button on hover */
+}
+
+h1 {
+
+    position: fixed;
+    /* Elemen tetap mengikuti aliran dokumen */
+    top: 20px;
+    margin-top: 20px;
+    /* Jarak dari atas halaman */
+    left: 50%;
+    /* Geser elemen ke 50% dari lebar halaman */
+    transform: translateX(-50%);
+    /* Koreksi posisi untuk benar-benar berada di tengah */
+    color: #ffffff;
+    /* Warna teks putih */
+    padding: 20px;
+    /* Padding di sekitar teks */
+    font-size: 40px;
+    /* Ukuran font besar untuk visibilitas */
+    font-weight: bold;
+    /* Teks tebal */
+    width: auto;
+    /* Lebar mengikuti konten */
+    text-align: center;
+    /* Rata tengah teks */
+    z-index: 1000;
+    /* Pastikan tetap berada di atas konten lain */
+
+}
+/* Style for the Play Again button */
+.play-again {
+    background-color: #123034; /* Green background */
+    border: none;              /* Remove border */
+    color: white;              /* White text color */
+    padding: 15px 32px;        /* Top and bottom padding, left and right padding */
+    text-align: center;        /* Center text */
+    text-decoration: none;     /* Remove underline */
+    display: inline-block;     /* Inline block element */
+    font-size: 16px;           /* Font size */
+    margin: 4px 2px;           /* Margin around button */
+    cursor: pointer;           /* Pointer cursor on hover */
+    border-radius: 4px;        /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+  }
+  
+  .play-again:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  

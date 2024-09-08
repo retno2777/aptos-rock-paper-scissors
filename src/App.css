@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background: rgb(54, 34, 117);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.App-header {
+  padding: 20px;
+  border-radius: 8px;
+  width: 20%; /* Ensure the header spans the full width */
+}
+
+.welcome-title {
+  position: fixed; /* Element remains fixed in the document flow */
+  top: 20px;
+  margin-top: 20px; /* Distance from the top of the page */
+  left: 50%; /* Shift the element to 50% of the page width */
+  transform: translateX(-50%); /* Correct position to be centered */
+  color: #ffffff; /* White text color */
+  padding: 20px; /* Padding around the text */
+  font-size: 40px; /* Large font size for visibility */
+  font-weight: bold; /* Bold text */
+  width: auto; /* Width follows the content */
+  text-align: center; /* Center text alignment */
+  z-index: 1000; /* Ensure it is above other content */
+}
+
+.wallet-button {
+  background: hsl(223, 30%, 22%); /* Slightly darker than the body background for contrast */
+  outline: none;
+  border: 2px solid hsl(223, 30%, 45%); /* Lighter border color */
+  border-radius: 0.8rem; /* Softer rounded corners */
+  color: #ffffff; /* White text for contrast */
+  padding: 0.8rem 3rem; /* More space around the text */
+  font-family: 'Arial', sans-serif;
+  font-size: 1.2rem; /* Larger font to highlight the button */
+  font-weight: 600; /* Slightly bolder text */
+  letter-spacing: 0.1em; /* Spacing between letters for a modern look */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth animation on hover */
+}
+
+.wallet-button:hover {
+  background-color: hsl(223, 30%, 35%); /* Lighter color on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.wallet-button:active {
+  background-color: hsl(223, 30%, 45%); /* Color when the button is pressed */
+  transform: scale(0.98); /* Slightly shrink when pressed */
+}
+
+.wallet-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.2); /* Soft focus effect */
+}

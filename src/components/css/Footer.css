@@ -1,0 +1,16 @@
+/* Style for the Footer component */
+.footer {
+  color: white;                /* White text color */
+  text-align: left;            /* Align text to the left */
+  padding: 10px 20px;          /* Vertical and horizontal padding */
+  position: fixed;             /* Fixed position at the bottom */
+  bottom: 0;                   /* Align at the bottom of the page */
+  left: 0;                     /* Align at the left of the page */
+  width: auto;                 /* Auto width to fit the content */
+  background-color: #333;      /* Optional: Background color for better visibility */
+}
+
+.footer-text {
+  margin: 0;                   /* Remove default margin */
+  font-size: 14px;             /* Font size */
+}

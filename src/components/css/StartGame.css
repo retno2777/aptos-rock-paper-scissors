@@ -1,0 +1,58 @@
+/* Container for the Game Start page */
+.GameStart-container {
+  padding: 40px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 800px;
+  min-height: 300px;
+  margin: auto; /* Center horizontally and vertically */
+  text-align: center;
+  color: #ffffff; /* White text color */
+  position: absolute; /* Position absolute to use Flexbox centering */
+  top: 50%; /* Vertical center */
+  left: 50%; /* Horizontal center */
+  transform: translate(-50%, -50%); /* Offset by 50% of its own height and width */
+}
+
+
+/* Description text */
+.game-description {
+  font-size: 18px;
+  color: hwb(0 4% 96%); /* Light gray for better readability */
+  margin: 0 0 30px; /* Margin below the description */
+  line-height: 1.5;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Button styling */
+.start-game-button {
+  background-color: #305b52; /* Bright green for the button */
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+  margin-top: 30px; /* Space above the button */
+  animation: scaleAnimation 1s infinite; /* Apply scale animation */
+}
+
+.start-game-button:hover {
+  background-color: #00936a; /* Darker green on hover */
+}
+
+@keyframes scaleAnimation {
+  0% {
+      transform: scale(1); /* Initial scale */
+  }
+  50% {
+      transform: scale(1.1); /* Scale up */
+  }
+  100% {
+      transform: scale(1); /* Scale down */
+  }
+}
+
